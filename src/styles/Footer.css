@@ -1,0 +1,34 @@
+.footer {
+  width: 100%;
+  height: 30vh;
+  background-color: #a5c926;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.footer-nav {
+  display: flex;
+  margin: 0px 10% ;
+
+  justify-content: space-between;
+}
+.footer-nav ul {
+  width: 40%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.footer-link {
+  margin: 0 10%;
+  display: flex;
+  justify-content: space-between;
+  border-top: 2px solid #f8f8f8;
+  padding-top: 30px;
+}
+.imgsAll img {
+  width: 20px;;
+}
+.footer a {
+  text-decoration: underline;
+  color: white;
+}

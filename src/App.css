@@ -1,0 +1,76 @@
+
+* {
+  /* 去除li标签前面的小黑点 */
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+.App {
+  background-color: #f8f8f8;
+  overflow: hidden;
+}
+.App .top-header {
+  position:sticky;
+  top: -1px;
+}
+.top {
+  background-color: #a5c926;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-style: 12px;
+  color: white;
+  padding: 0 10%;
+}
+.imgs img {
+  width: 20px;
+}
+.imgs a {
+  margin: 0 3px;
+}
+
+.header {
+  width: 100%;
+  height: 72px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #FFFFFF;
+}
+.nav {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  margin-left: 10%;
+}
+h3 {
+  margin-right: 40px;
+  color: black;
+}
+.nav-ul{
+  width: 40%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.nav-ul li {
+  color: black;
+}
+.cartIcon {
+  height: 30px;
+  display: flex;
+  align-items: center;
+  margin-right: 10%;
+}
+.total-quantity {
+  display: inline-block;
+  padding: 0 6px;
+  border-radius: 20px;
+  text-align: center;
+  color: white;
+  background-color: #a5c926;
+}
+
+
+
