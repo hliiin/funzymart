@@ -24,6 +24,32 @@
   padding: 10px;
   text-align: center;
 }
+/* .product-table .tdBtns {
+  display: flex;
+  flex-direction: column;
+} */
+
+.product-table .tdBtns button {
+display: block;
+  border: none;
+  width: 90%;
+  margin: 5px auto;
+  border-radius: 5px;
+  height: 30px;
+}
+.product-table .tdBtns .changeBtn {
+
+background-color: rgb(249, 200, 24);
+
+}
+
+.product-table .tdBtns .delBtn {
+background-color: rgb(249, 43, 43);
+
+
+
+  
+}
 
 .product-table img {
   border-radius: 4px;
