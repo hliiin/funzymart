@@ -3,8 +3,9 @@
   height: 100%;
   border-radius: 10px;
   background-color: white;
-  margin: 100px auto ;
+  margin: 100px auto;
   padding: 50px 0 0 0;
+  color: #111111;
 
   .info {
     margin: 0px 90px;
@@ -28,12 +29,12 @@
       .inp-btn {
         input {
           width: 12%;
-        height: 35px;
-        margin-right: 10px;
-        border: none;
-        border-radius: 20px;
-        text-align: center;
-        background-color: #f8f8f8
+          height: 35px;
+          margin-right: 10px;
+          border: none;
+          border-radius: 20px;
+          text-align: center;
+          background-color: #f8f8f8;
         }
         button {
           background-color: #a5c926;
@@ -48,28 +49,70 @@
   }
   .details {
     margin: 0 90px;
+    padding-bottom: 40px;
     display: flex;
     justify-content: space-between;
     margin-top: 100px;
+    position: relative;
+    border-bottom: 3px solid #e5e5e5;
   }
+  .details::after {
+  content: "";
+  position: absolute;
+  display: block;
+  bottom: -3px;
+  left: 0;
+  width: 17%;
+  border-bottom: 3px solid #a5c926;
+}
   /* 商品信息 */
-.AllDetails {
-  width: 20%;
-  font-size: 20px;
-  margin: 50px 100px;
-  padding: 20px 50px;
-  border: 1px solid #999999;
-  border-radius: 10px;
-  ul {
-    
-    li {
-      padding: 20px 0;
-      border-bottom: 1px solid #999999;
-      span {
-        margin-left: 100px;
-        font-weight: 600;
+  .ContentSku {
+    margin: 50px 90px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    padding-bottom: 100px;
+    font-size: 17px;
+    .description {
+      width: 60%;
+      height: 650px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: space-evenly;
+      h2 {
+        font-size: 30px;
+      }
+
+      .list {
+        display: flex;
+        flex-direction: column;
+        align-items: self-start;
+      }
+      .list li {
+        list-style: disc;
+        margin-left: 50px;
+      }
+    }
+    .AllDetails {
+      width: 25%;
+      height: 200px;
+      font-size: 20px;
+      padding: 20px 40px;
+      border: 1px solid #e5e5e5;
+      border-radius: 10px;
+      ul {
+        li {
+          padding: 15px 0;
+          display: flex;
+          justify-content: space-between;
+          border-bottom: 1px solid #999999;
+          span {
+            margin-left: 100px;
+            font-weight: 600;
+          }
+        }
       }
     }
   }
-}
 }

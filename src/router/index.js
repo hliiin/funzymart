@@ -10,6 +10,8 @@ import ProductList from "../pages/ProductList"
 import Product from "../pages/Product"
 import Contacts from "../pages/Contacts"
 import AdminMain from "../pages/AdminMain"
+import Delivery from "../pages/Delivery"
+import About from "../pages/About"
 
 
 // 1.配置路由数组
@@ -27,7 +29,7 @@ const router = [
     element: <NotFound />
   },
   {
-    path:'/product',
+    path:'/productlist',
     element:<ProductList />
   },
   {
@@ -41,6 +43,14 @@ const router = [
   {
     path:'/admin',
     element:<AdminMain></AdminMain>
+  },
+  {
+    path:'/delivery',
+    element:<Delivery /> 
+  },
+  {
+    path:'/about',
+    element:<About /> 
   }
   
 ]

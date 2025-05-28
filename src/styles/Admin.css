@@ -12,6 +12,7 @@
   cursor: pointer;
 }
 
+
 .product-table {
   width: 100%;
   border-collapse: collapse;
@@ -45,10 +46,7 @@ background-color: rgb(249, 200, 24);
 
 .product-table .tdBtns .delBtn {
 background-color: rgb(249, 43, 43);
-
-
-
-  
+ 
 }
 
 .product-table img {

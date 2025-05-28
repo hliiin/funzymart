@@ -70,11 +70,15 @@ function App() {
               <h3>ToyStore</h3>
             </Link>
             <ul className="nav-ul">
-              <Link to="/product">
+              <Link to="/productlist">
                 <li>Catalog</li>
               </Link>
-              <li>Delivery</li>
-              <li>About</li>
+              <Link to="/delivery">
+                <li>Delivery</li>
+              </Link>
+              <Link to="/about">
+                <li>About</li>
+              </Link>
               <Link to="/contacts">
                 <li>Contacts</li>
               </Link>

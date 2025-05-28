@@ -37,7 +37,7 @@ export default function Footer() {
       </div>
       <div className='footer-link'>
         <p>Created with love by <a href="https://www.elasticthemes.com/" target='_blank' rel="noopener noreferrer">Elastic Themes</a></p>
-        <p>Powered by Webflow &bull; <a href="https://webflow.com/" target='_blank' rel="noopener noreferrer">Style Guide</a> &bull; <a href="https://toystore-template.webflow.io/template/licensing" rel="noopener noreferrer">Licensing</a></p>
+        <p>Powered by Webflow &bull; <a href="https://webflow.com/" target='_blank' rel="noopener noreferrer">Style Guide</a> &bull; <a href="javascript:;" rel="noopener noreferrer">Licensing</a></p>
       </div>
     </div>
   )

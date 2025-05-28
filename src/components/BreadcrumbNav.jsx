@@ -40,5 +40,25 @@ if (location.pathname === "/") {
     ...extraBreadcrumbItems,
   ];
 
-  return <Breadcrumb items={breadcrumbItems} style={{height:'50px', margin: "30px 10%", border:'2px solid #e5e5e5', padding:'10px 20px', borderRadius:'50px'  }} />;
+  // return <Breadcrumb items={breadcrumbItems} style={{height:'50px', margin: "30px 10%", border:'2px solid #e5e5e5', padding:'10px 20px', borderRadius:'50px'  }} />;
+  return (
+  <Breadcrumb
+    items={breadcrumbItems}
+    separator={
+      <img
+        src="https://cdn.prod.website-files.com/5badda2935e11303a89a461e/5baf79eb570913b9781a96f2_arrow-right-mini-icon.svg"
+        alt=">"
+        style={{ width: 10, height: 10, margin: "0 8px", verticalAlign: "middle" }}
+      />
+    }
+    style={{
+      height: "50px",
+      margin: "30px 10%",
+      border: "2px solid #e5e5e5",
+      padding: "10px 20px",
+      borderRadius: "50px"
+    }}
+  />
+);
+
 }

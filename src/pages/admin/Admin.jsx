@@ -94,18 +94,11 @@ export default function Admin() {
                 <td>
                   {p.img && (
                     <img
-                      // src={
-                      //   p.img.startsWith("http")
-                      //     ? p.img
-                      //     : `http://127.0.0.1/${p.img}`
-                      // }
                       src={
-                        p.img
-                          ? `http://127.0.0.1${p.img}${
-                              p._id ? `?t=${p._id}` : ""
-                            }`
-                          : ""
-                      }
+                      p.img?.startsWith("http")
+                        ? p.img
+                        : `http://127.0.0.1${p.img}${p._id ? `?t=${p._id}` : ""}`
+                    }
                       alt="预览"
                       width="50"
                     />
