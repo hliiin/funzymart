@@ -72,9 +72,9 @@ const goodsList = [
     img:'https://cdn.prod.website-files.com/5baddb6a35e113da0e9a4802/5bae0f1835e11376299a8089_33878-5-plush-toy-transparent-min.png'
   },
   {
-    id: "little-rabbit",
+    id: "christmas-deer",
     type: "stuffed-animals",
-    name: "Little Rabbit",
+    name: "Christmas Deer",
     price: 16,
     sku:35004,
     details: { width: 38, height: 32, length: 21.5, weight: 24 },

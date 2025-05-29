@@ -14,13 +14,17 @@
 }
 .sidebar li {
   margin: 20px;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: #cbfb9c;
 }
 .sidebar li:hover {
   cursor: pointer;
 }
 .admin-content {
   flex: 1;
-  padding: 20px;
+  /* padding: 20px; */
 }
 .add-button {
   margin-bottom: 10px;

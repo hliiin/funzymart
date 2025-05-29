@@ -13,6 +13,10 @@
 .App .top-header {
   position:sticky;
   top: -1px;
+  position: sticky;
+  top: 0;
+  z-index: 999; /* 保证在最上层 */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 .top {
   background-color: #a5c926;

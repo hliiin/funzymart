@@ -2,13 +2,14 @@ import React, { useState, useEffect } from "react";
 import "../../styles/Admin.css";
 import AddGoodsModal from "../../components/Toast/AddGoodsModal";
 import axios from "axios";
+import goodsList from "../../api/goodsList";
 import { Pagination } from "antd"; // 引入 Ant Design 的 Pagination 组件
 
 export default function Admin() {
   const [showModal, setShowModal] = useState(false);
   const [productList, setProductList] = useState([]);
   const [currentPage, setCurrentPage] = useState(1); // 当前页
-  const pageSize = 5; // 每页显示10条数据
+  const pageSize = 5; // 每页显示5条数据
   const [editingProduct, setEditingProduct] = useState(null); // 当前正在编辑的商品
 
   // 获取商品数据并设置商品列表
@@ -16,8 +17,12 @@ export default function Admin() {
     try {
       const response = await axios.get("http://127.0.0.1/getToys");
       setProductList(response.data); // 后端返回商品列表
+       setCurrentPage(1); // 👈新增：每次获取后回到第一页
     } catch (error) {
-      console.error("获取商品数据失败:", error);
+      console.error("获取商品数据失败:使用临时数据代替", error);
+      setProductList([...goodsList]); // ✅ 使用拷贝版本 
+       setCurrentPage(1); // 👈新增：每次获取后回到第一页
+
     }
   };
   useEffect(() => {
