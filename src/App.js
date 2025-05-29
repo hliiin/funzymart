@@ -100,7 +100,7 @@ function App() {
         </div>
       </div>
       {/* 路由页面 */}
-      <div className='main-content'>
+      <div>
         {/* 回到顶部 */}
         <ScrollToTop />
         {!isAdminPage && <BreadcrumbNav />}

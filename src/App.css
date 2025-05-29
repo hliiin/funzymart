@@ -8,11 +8,9 @@
 }
 .App {
   background-color: #f8f8f8;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 .App .top-header {
-  position:sticky;
-  top: -1px;
   position: sticky;
   top: 0;
   z-index: 999; /* 保证在最上层 */
