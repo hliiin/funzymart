@@ -12,7 +12,6 @@
   cursor: pointer;
 }
 
-
 .product-table {
   width: 100%;
   border-collapse: collapse;
@@ -31,7 +30,7 @@
 } */
 
 .product-table .tdBtns button {
-display: block;
+  display: block;
   border: none;
   width: 90%;
   margin: 5px auto;
@@ -39,14 +38,11 @@ display: block;
   height: 30px;
 }
 .product-table .tdBtns .changeBtn {
-
-background-color: rgb(249, 200, 24);
-
+  background-color: rgb(249, 200, 24);
 }
 
 .product-table .tdBtns .delBtn {
-background-color: rgb(249, 43, 43);
- 
+  background-color: rgb(249, 43, 43);
 }
 
 .product-table img {
@@ -65,7 +61,7 @@ background-color: rgb(249, 43, 43);
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0,0,0,0.3);
+  background: rgba(0, 0, 0, 0.3);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -77,7 +73,7 @@ background-color: rgb(249, 43, 43);
   padding: 30px;
   width: 500px;
   border-radius: 10px;
-  box-shadow: 0 0 20px rgba(0,0,0,0.2);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 }
 
 .form label {

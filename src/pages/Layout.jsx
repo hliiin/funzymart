@@ -3,14 +3,17 @@ import "../styles/Layout.css";
 import { Link } from "react-router-dom";
 import axios from "axios";
 import ToySection from "../components/ToySection ";
+import goodslist from "../api/goodsList";
 export default function Layout() {
   const [toys, setToys] = useState([]);
-
   useEffect(() => {
     axios
       .get("http://127.0.0.1/getToys") // 替换为你的真实接口地址
       .then((res) => setToys(res.data))
-      .catch((err) => console.error(err));
+      .catch((err) => {
+        console.error("请求失败，使用默认数据:", err);
+        setToys(goodslist); // 使用默认数据作为备选
+      });
   }, []);
 
   return (

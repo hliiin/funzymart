@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import axios from "axios";
-// import goodsList from "../api/goodsList";
+import goodsList from "../api/goodsList";
 import "../styles/Product.scss";
 import { useDispatch } from "react-redux";
 import { addItem } from "../store/modules/cartSlice";
@@ -18,7 +18,9 @@ export default function Product() {
         const res = await axios.get(`http://127.0.0.1/getToyById/${id}`);
         setProduct(res.data);
       } catch (error) {
-        console.error("请求失败", error);
+        console.error("请求失败,采用临时数据", error);
+        const fallbackProduct = goodsList.find((item) => item.id === id);
+        setProduct(fallbackProduct || null);
       }
     };
 
@@ -33,7 +35,7 @@ export default function Product() {
   };
 
   if (!product) {
-    return <h1>商品不存在.....</h1>;
+    return <h1 style={{ margin: "20px 10%" }}>商品不存在.....</h1>;
   }
   return (
     <div className="product">

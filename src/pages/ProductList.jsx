@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import "../styles/ProductList.css";
 import { Link } from "react-router-dom";
 import axios from "axios";
+import goodsList from "../api/goodsList";
 
 function getImageUrl(img) {
   if (!img) return "";
@@ -20,7 +21,8 @@ export default function ProductList() {
         setAllList(res.data);
         console.log("商品数据:", res.data);
       } catch (err) {
-        console.error("获取商品数据失败:", err);
+        console.error("请求失败，使用默认数据:", err);
+        setAllList(goodsList); // 使用默认数据作为备选
       }
     };
     fetchData();

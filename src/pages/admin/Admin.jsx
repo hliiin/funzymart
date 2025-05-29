@@ -76,7 +76,7 @@ export default function Admin() {
         <tbody>
           {currentProducts.length === 0 ? (
             <tr>
-              <td colSpan="9" className="empty">
+              <td colSpan="10" className="empty">
                 暂无商品
               </td>
             </tr>
