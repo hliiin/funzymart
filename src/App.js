@@ -29,7 +29,7 @@ function App() {
         <div className="top">
           <div className="top-number">
             Call Us: +1 213 974-9090&nbsp;&nbsp;&nbsp;&nbsp;Email:
-            https://toystore-phi.vercel.app/
+            FunzyMart@Gmail.com
           </div>
           <div className="imgs">
             <a href="https://elasticthemes.com">
@@ -67,7 +67,7 @@ function App() {
         <div className="header">
           <div className="nav">
             <Link to="/">
-              <h3>ToyStore</h3>
+              <h3>FunzyMart</h3>
             </Link>
             <ul className="nav-ul">
               <Link to="/productlist">

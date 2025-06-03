@@ -9,7 +9,7 @@ export default function Footer() {
   return (
     <div className='footer'>
       <div className='footer-nav'>
-        <h2>ToyStore</h2>
+        <h2>FunzyMart</h2>
         <ul>
           <li><a href="#top" onClick={handleClick} style={{textDecoration:'none'}} rel="noopener noreferrer">Home</a></li>
           <li><Link to='/product' style={{textDecoration:'none'}}>Catalog</Link></li>

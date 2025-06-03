@@ -19,9 +19,9 @@ export default function ProductList() {
       try {
         const res = await axios.get("http://127.0.0.1/getToys");
         setAllList(res.data);
-        console.log("商品数据:", res.data);
+        console.log("state:", res.data);
       } catch (err) {
-        console.error("请求失败，使用默认数据:", err);
+        console.error("err:", err);
         setAllList(goodsList); // 使用默认数据作为备选
       }
     };

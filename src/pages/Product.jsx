@@ -5,6 +5,8 @@ import goodsList from "../api/goodsList";
 import "../styles/Product.scss";
 import { useDispatch } from "react-redux";
 import { addItem } from "../store/modules/cartSlice";
+import {  notification } from "antd";
+import { CheckCircleTwoTone } from "@ant-design/icons";
 
 export default function Product() {
   const dispatch = useDispatch();
@@ -18,7 +20,7 @@ export default function Product() {
         const res = await axios.get(`http://127.0.0.1/getToyById/${id}`);
         setProduct(res.data);
       } catch (error) {
-        console.error("请求失败,采用临时数据", error);
+        console.error("err", error);
         const fallbackProduct = goodsList.find((item) => item.id === id);
         setProduct(fallbackProduct || null);
       }
@@ -31,11 +33,18 @@ export default function Product() {
 
   const addCart = () => {
     dispatch(addItem({ ...product, quantity }));
-    alert("商品假如购物车成功");
+    // 显示添加成功通知
+    notification.open({
+      message: "Product added successfully！",
+      description: "The product has been successfully added to the shopping cart.",
+      icon: <CheckCircleTwoTone twoToneColor="#52c41a" />,
+      placement: "topRight",
+      duration: 3, // 3 秒后自动关闭
+    });
   };
 
   if (!product) {
-    return <h1 style={{ margin: "20px 10%" }}>商品不存在.....</h1>;
+    return <h1 style={{ margin: "20px 10%" }}>Product does not exist...</h1>;
   }
   return (
     <div className="product">

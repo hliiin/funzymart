@@ -21,7 +21,7 @@ export default function Layout() {
       {/* one */}
       <div className="hero-section">
         <div className="text-white">
-          <h6>Say Hello to ToyStore!</h6>
+          <h6>Say Hello to FunzyMart!</h6>
           <p>
             Free Ecommerce
             <br />

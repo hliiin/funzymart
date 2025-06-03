@@ -8,8 +8,8 @@ export default function About() {
       {/* one */}
       <div className="Introducing">
         <div className="introduce">
-          <h6>Say Hello to ToyStore!</h6>
-          <h1>Introducing ToyStore</h1>
+          <h6>Say Hello to FunzyMart!</h6>
+          <h1>Introducing FunzyMart</h1>
           <p>
             A successful marketing plan relies heavily on the pulling-power of
             advertising copy. Writing result-oriented ad copy is difficult, as
