@@ -28,8 +28,8 @@ function App() {
       <div className="top-header">
         <div className="top">
           <div className="top-number">
-            Call Us: +1 213 974-5898&nbsp;&nbsp;&nbsp;&nbsp;Email:
-            toystore@template.com
+            Call Us: +1 213 974-9090&nbsp;&nbsp;&nbsp;&nbsp;Email:
+            https://toystore-phi.vercel.app/
           </div>
           <div className="imgs">
             <a href="https://elasticthemes.com">
