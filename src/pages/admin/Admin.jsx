@@ -58,10 +58,13 @@ export default function Admin() {
 
   return (
     <div className="admin-container">
-      <h2>商品管理</h2>
-      <button className="add-button" onClick={() => setShowModal(true)}>
-        新增商品
-      </button>
+      <div className="admin-header">
+        <h2>商品管理</h2>
+        <button className="add-button" onClick={() => setShowModal(true)}>
+          新增商品
+        </button>
+      </div>
+      
 
       <table className="product-table">
         <thead>
@@ -82,7 +85,7 @@ export default function Admin() {
           {currentProducts.length === 0 ? (
             <tr>
               <td colSpan="10" className="empty">
-                暂无商品
+                No products available
               </td>
             </tr>
           ) : (

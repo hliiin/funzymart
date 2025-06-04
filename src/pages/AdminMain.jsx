@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 import GoodsPage from "./admin/Admin";
-import UserPage from "./admin/UserPage";
+// import UserPage from "./admin/UserPage";
 import "../styles/AdminMain.css";
 
 export default function AdminMain() {
@@ -15,15 +15,15 @@ export default function AdminMain() {
           <li onClick={() => setActiveTab("goods")}>
             Commodity
           </li>
-          <li onClick={() => setActiveTab("users")}>
+          {/* <li onClick={() => setActiveTab("users")}>
             User
-          </li>
+          </li> */}
         </ul>
       </div>
 
       <div className="admin-content">
         {activeTab === "goods" && <GoodsPage />}
-        {activeTab === "users" && <UserPage />}
+        {/* {activeTab === "users" && <UserPage />} */}
       </div>
     </div>
   );
