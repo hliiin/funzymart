@@ -23,9 +23,9 @@ export default function Layout() {
         <div className="text-white">
           <h6>Say Hello to FunzyMart!</h6>
           <p>
-            Free Ecommerce
+            Let happiness not only 
             <br />
-            Template for Webflow
+            last in childhood
           </p>
           <Link to="/productlist">
             <button className="open">Open catelog</button>
@@ -78,9 +78,8 @@ export default function Layout() {
         <p>About The Shop</p>
         <p style={{ fontSize: "40px" }}>Watch Our Story</p>
         <p className="introduce">
-          There is no magic formula to write perfect ad copy. It is based on a
-          number of factors, including ad placement,
-          <br /> demographic, even the consumer’s mood.
+          We carefully select each toy, just to let your children explore through play, grow through creation, and light up their childhood 
+          <br /> with every happy moment.
         </p>
         <div className="movie">
           <img
@@ -91,19 +90,16 @@ export default function Layout() {
       </div>
       {/* five */}
       <div className="content-five">
-        <p style={{ color: "#a5c926", margin: "10px 0" }}>Made for Webflow</p>
+        {/* <p style={{ color: "#a5c926", margin: "10px 0" }}>Made for Webflow</p> */}
         <p style={{ fontSize: "40px" }}>
-          Simple & Colorful Ecommerce <br /> Template for Your Business
+          Use toys to create a childhood full of  <br /> miracles for children
         </p>
         <div className="content-main">
           <div className="main-left">
-            <p style={{ fontSize: "25px" }}>Available for FREE!</p>
+            <p style={{ fontSize: "25px" }}>Describe</p>
             <p style={{ border: "2px solid #a5c926", width: "80px" }}></p>
             <p style={{ color: "#999999" }}>
-              A successful marketing plan relies heavily on the pulling-power of
-              advertising copy. Writing result-oriented ad copy is difficult, as
-              it must appeal to, entice, and convince consumers to take action.
-              There is no magic formula to write perfect ad copy
+              Our store is dedicated to providing you and your children with more than just entertainment tools; we also provide intellectual enlightenment and emotional connections. Every toy undergoes rigorous quality screening to ensure safety and durability, allowing children to spend their most innocent and precious time together.
             </p>
             <button>GET IT NOW!</button>
           </div>

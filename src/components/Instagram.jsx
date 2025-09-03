@@ -20,9 +20,7 @@ export default function Instagram() {
             />
           </div>
           <h2 style={{ marginLeft: "20px" }}>
-            Subscribe to our newsletter
-            <br />& get <span style={{ color: "#a5c926" }}>10% discount!</span>
-          </h2>
+            Everyone is welcome to subscribe and <br/>keep an eye on mall activities!</h2>
         </div>
         <div>
           <input
@@ -52,7 +50,6 @@ export default function Instagram() {
         </div>
       </div>
       <div className="instagram">
-        <p style={{ color: "#a5c926" }}>@ElasticThemes</p>
         <p>We're on Instagram!</p>
         <ul className="insList">
           <li>

@@ -36,8 +36,8 @@ export default function Footer() {
         </div>
       </div>
       <div className='footer-link'>
-        <p>Created with love by <a href="https://www.elasticthemes.com/" target='_blank' rel="noopener noreferrer">Elastic Themes</a></p>
-        <p>Powered by Webflow &bull; <a href="https://webflow.com/" target='_blank' rel="noopener noreferrer">Style Guide</a> &bull; <a href="https://webflow.com/">Licensing</a></p>
+        <p>&copy; 2025 FunzyMart</p>
+        <p>Bringing Joy to Your Kids.</p>
       </div>
     </div>
   )

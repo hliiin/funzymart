@@ -5,43 +5,26 @@ export default function Delivery() {
     <div >
         <div class="delivery">
           <div class="delivery-info w-richtext">
-            <h2>Delivery Info</h2>
+            <h2>How do we deliver your toys?</h2>
             <p>
-              A successful marketing plan relies heavily on the pulling-power of
-              advertising copy. Writing result-oriented ad copy is difficult, as
-              it must appeal to, entice, and convince consumers to take action.
-              There is no magic formula to write perfect ad copy; it is based on
-              a number of factors, including ad placement, demographic, even the
-              consumer’s mood when they see your ad.
+             At ToyNest, we know that every toy is not just a commodity, but a surprise that children look forward to. To this end, we carefully design every delivery link to ensure that the toys are delivered to you safely, quickly and intact.
             </p>
-            <h3>What’s a Rich Text element?</h3>
+            <h3>Packaging and toy protection</h3>
             <p>
-              The rich text element allows you to create and format headings,
-              paragraphs, blockquotes, images, and video all in one place
-              instead of having to add and format them individually. Just
-              double-click and easily create content.
+             Each order is packed with environmentally friendly, pressure-proof and moisture-proof materials to prevent the toys from being damaged during transportation. For fragile and combined toys, we will use reinforced cushioning packaging to ensure that they are intact.
             </p>
-            <h4>Static and dynamic content editing</h4>
+            <h4>Package tracking service</h4>
             <p>
-              A rich text element can be used with static or dynamic content.
-              For static content, just drop it into any page and begin editing.{" "}
+             We provide real-time package tracking service for all orders. After shipment, you will receive an email or SMS with the logistics tracking number and tracking link, and you can check the current delivery progress at any time.
             </p>
             <ul className="list">
-              <li>Beautifully Designed</li>
-              <li>100% Responsive</li>
-              <li>CMS Content</li>
-              <li>Smooth Animations</li>
+              <li>Optional gift box packaging and greeting card</li>
+            <li>Provide customized blessing service</li>
+            <li>Please note when placing an order or contact customer service. Some services require additional charges.</li>
             </ul>
+            <h4>Gift wrapping service</h4>
             <p>
-              For dynamic content, add a rich text field to any collection and
-              then connect a rich text element to that field in the settings
-              panel. Voila!
-            </p>
-            <h4>How to customize formatting for each rich text</h4>
-            <p>
-              Headings, paragraphs, blockquotes, figures, images, and figure
-              captions can all be styled after a class is added to the rich text
-              element using the "When inside of" nested selector system.
+            We support personalized gift packaging, suitable for birthdays, Christmas, Children's Day and other festivals
             </p>
           </div>
           <div class="question">

@@ -11,9 +11,7 @@ export default function About() {
           <h6>Say Hello to FunzyMart!</h6>
           <h1>Introducing FunzyMart</h1>
           <p>
-            A successful marketing plan relies heavily on the pulling-power of
-            advertising copy. Writing result-oriented ad copy is difficult, as
-            it must appeal to, entice, and convince consumers to take action.
+            Welcome to our world of wooden plush, a home of authentic, warm toys. We believe the best toys are made with the gifts of nature and the tenderness of love. Each wooden toy retains its natural texture and feel, stimulating a child's sense of touch and creativity. Each plush toy offers a soft embrace, providing children with the warmest companionship and a sense of security.
           </p>
           <button>
             <h4>More About Us</h4>
@@ -26,19 +24,21 @@ export default function About() {
       </div>
       {/* two */}
       <div className="content-five" style={{ paddingBottom: 50 }}>
-        <p style={{ color: "#a5c926", margin: "10px 0" }}>Made for Webflow</p>
+        {/* <p style={{ color: "#a5c926", margin: "10px 0" }}>Made for Webflow</p> */}
         <p style={{ fontSize: "40px" }}>
-          Simple & Colorful Ecommerce <br /> Template for Your Business
+          Use toys to create a childhood full of <br /> miracles for children
         </p>
         <div className="content-main">
           <div className="main-left">
-            <p style={{ fontSize: "25px" }}>Available for FREE!</p>
+            <p style={{ fontSize: "25px" }}>Describe</p>
             <p style={{ border: "2px solid #a5c926", width: "80px" }}></p>
             <p style={{ color: "#999999" }}>
-              A successful marketing plan relies heavily on the pulling-power of
-              advertising copy. Writing result-oriented ad copy is difficult, as
-              it must appeal to, entice, and convince consumers to take action.
-              There is no magic formula to write perfect ad copy
+              Our store is dedicated to providing you and your children with
+              more than just entertainment tools; we also provide intellectual
+              enlightenment and emotional connections. Every toy undergoes
+              rigorous quality screening to ensure safety and durability,
+              allowing children to spend their most innocent and precious time
+              together.
             </p>
             <button>GET IT NOW!</button>
           </div>
@@ -56,12 +56,10 @@ export default function About() {
           alt=""
         />
         <div className="resContent">
-          <h2>100% Responsive</h2>
+          <h2>Explanation</h2>
           <p>
-            A successful marketing plan relies heavily on the pulling-power of
-            advertising copy. Writing result-oriented ad copy is difficult, as
-            it must appeal to, entice, and convince consumers to take action.
-            There is no magic formula to write perfect ad copy
+            We hold a magical world within every toy. It's a child's most
+            precious treasure, and the dream we cherish.
           </p>
           <button>
             <h4>Explore Our Toys</h4>
@@ -83,9 +81,9 @@ export default function About() {
         <p>About The Shop</p>
         <p style={{ fontSize: "40px" }}>Watch Our Story</p>
         <p className="introduce">
-          There is no magic formula to write perfect ad copy. It is based on a
-          number of factors, including ad placement,
-          <br /> demographic, even the consumer’s mood.
+          We carefully select each toy, just to let your children explore
+          through play, grow through creation, and light up their childhood
+          <br /> with every happy moment.
         </p>
         <div className="movie">
           <img
